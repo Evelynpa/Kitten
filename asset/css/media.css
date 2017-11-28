@@ -1,0 +1,36 @@
+/* @media (min-width:917px){
+    
+}   */
+@media (min-width:581px) and (max-width:916px){
+  /* IMAGEN SMALL */
+   .imgCat{
+    content: url(../img/kitten-small.png);
+    width: 330px;
+    margin-top: 250px;
+    margin-left: 150px;
+    }
+    .imgFondo{
+        background: url(../img/night.jpg);
+        background-size: 100% 100%; 
+        padding: 5%; 
+    }
+}
+@media (min-width:100px) and (max-width:580px){
+      /* IMAGEN MEDIUM */
+   .imgCat{
+    content: url(../img/kitten-medium.png);
+    width: 400px;
+    margin-top: 70%;
+    margin-left: 10%;
+    }
+    .imgFondo{
+       
+        background: url(../img/sunny-day.jpg);
+       background-size: 100% 100%;
+   
+    }
+    .row div{
+        text-align: center
+    }
+}
+ 

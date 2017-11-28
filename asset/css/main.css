@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* IMAGEN LARGE */
+.imgCat{
+    content: url(../img/kitten-large.png);
+    width: 650px;
+
+    padding: 0;
+    margin-top: 27%;
+    margin-left: 29%;
+}
+.imgFondo{
+    width: 100%;
+    background: url(../img/dawn.png);
+    background-size: 100% 100%; 
+
+}
